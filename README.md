@@ -22,6 +22,9 @@ Install the package and its dependencies
 (env)$ pip install -r requirements.txt 
 ```
 
+Add API token to `.env` file in the root dir, e.g. `token=123`
+
+
 ### Google colab
 To use this package from google colab, run:
 ```bash
