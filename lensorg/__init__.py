@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
+import os
 import requests
-import pandas as pd
-from time import sleep
 from ratelimit import limits, sleep_and_retry
+from dotenv import find_dotenv, load_dotenv
+
+load_dotenv(find_dotenv())
+token = os.environ.get("LENSAPI")
 
 
 def chunks(lst, n=999):
