@@ -4,4 +4,4 @@
 # external
 ratelimit==2.2.1
 requests==2.25.1
-python-dotenv==0.17.1
+python-dotenv==0.18.0
